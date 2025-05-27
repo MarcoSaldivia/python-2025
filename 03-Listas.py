@@ -19,7 +19,7 @@ print(ramos.count('Programacion'))
 estudiantes = ('Samir', 'Hector', 'Matias', 'Pia', 'Carlos')
 
 # FUNCION INDEX EN TUPLAS
-print(estudiantes.index('Carlos'))
+print(estudiantes.index('Carlos')) 
 
 
 
