@@ -68,4 +68,30 @@ print(asignatura[0:6])
 print(description.split())
 
 # ARREGLO NUMERICO
-v = [1, 2, 3, 4, 5] #
+v = [1, 2, 3, 4, 5] # Inicializando un arreglo numerico 
+print(v[0]) # El valor de cero marca la posicion del primer elemento (indice)
+
+
+# FUNCION LEN
+print(f'La palabra {carrera} tiene {len(carrera)} letras.')
+
+
+# VALORES BOOLEANOS
+interruptor = True 
+ampolleta = False
+
+print(interruptor, ampolleta)
+# FUNCION TYPE PERMITE SABER EL TIPO DE DATO QUE SE UTILIZA
+print(type(interruptor))
+
+
+# COMPARATIVA DE VALORES LOGICOS 
+print(1<10)
+print(100<=20)
+print(100==100)
+
+
+print(bool("")) # Tiene que haber algo dentro de los () para que me verdadero
+print(bool(1)) # Por es "()" y "0" sale falso
+print(bool(0))
+print(bool("Hola"))
