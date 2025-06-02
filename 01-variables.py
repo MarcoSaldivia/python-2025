@@ -95,3 +95,6 @@ print(bool("")) # Tiene que haber algo dentro de los () para que me verdadero
 print(bool(1)) # Por es "()" y "0" sale falso
 print(bool(0))
 print(bool("Hola"))
+
+# VARIABLES ROUND, FUNCION QUE ENCAPZULA 
+round(celsius,(2))
