@@ -13,7 +13,7 @@ mayusculas = frase.upper()
 minusculas = frase.lower()
 
 # Pasar la frase a minusculas y determinar cuantas "a" o "A" hay en la frase
-cantidad_a = frase.lower.count('a')
+cantidad_a = frase.lower().count('a')
 
 # MEDIR LA LONGITUD DE LA FRASE
 longitud = len(frase)
