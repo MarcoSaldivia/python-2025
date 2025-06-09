@@ -48,3 +48,50 @@ print(a > b) # Mayor que
 print(a < b) # Menor que
 print(c >= d) # Mayor o igual a
 print(c <= d) # Menor o igual a 
+
+# OPERADORES LÓGICOS
+print("######## 03-OPERADORES LÓGICOS ########")
+# Ejemplo:
+# "Tenemos un vehiculo que tiene bencina (variable bencina) y una opcion 
+#  que dice si esta encendido o no (variable encendido). Dependiendo del 
+#  estado de cada variable, se irá cambiando por False o True"
+
+bencina = True
+encendido = True
+edad = 19
+
+#Utilizando el operador AND
+if bencina and encendido: 
+    print("El vehiculo puede avanzar")
+else:
+    print("El vehiculo no puede arrancar")
+
+#Utilizando el operador OR
+if bencina or encendido:
+    print("El vehiculo puede avanzar")
+else:
+    print("El vehiculo no puede arrancar")
+
+#Utilizando el operador OR
+if bencina or encendido:
+    print("El vehiculo puede avanzar")
+else:
+    print("El vehiculo no puede arrancar")
+
+#Utilizando el operador NOT junto al AND
+if not bencina and encendido:
+    print("El vehiculo puede avanzar")
+else:
+    print("El vehiculo no puede arrancar")
+
+#Utilizando el operador NOT junto al OR
+if not bencina or encendido:
+    print("Utilizando NOT Y OR:  El vehiculo puede avanzar")
+else:
+    print("El vehiculo no puede arrancar")
+
+#Utilizando el operador NOT junto al AND y OR
+if (not bencina or encendido) or (encendido and edad >= 18):
+    print("El vehiculo puede avanzar")
+else:
+    print("El vehiculo no puede arrancar")
