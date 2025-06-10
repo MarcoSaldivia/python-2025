@@ -53,3 +53,12 @@ datos = {'nombre': 'Marco', 'edad': 18}
 match datos:
     case {'nombre': n, 'edad': e}:
         print(f"Nombre: {n}, Edad: {e}")
+
+# Guard
+# Ejemplo saber si un numero es par o inpar
+valor = 6
+match valor:
+    case x if x % 2 == 0:
+        print(f"{valor} es un numero par")
+    case x if x % 2 != 0:
+        print(f"{valor} es un numero inpar")
