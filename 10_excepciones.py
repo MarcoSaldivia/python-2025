@@ -18,3 +18,8 @@ finally:
 # ValueError (Error especifico)
 # ZeroException (Error especifico cuando 2/0)
 # FileNotFoundError (Error cuando un archivo no existe)
+
+# Raise
+edad = -3
+if edad < 0:
+    raise ValueError("La edad no puede ser negativa")
